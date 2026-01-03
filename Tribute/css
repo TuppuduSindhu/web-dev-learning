@@ -1,0 +1,33 @@
+
+header{
+  text-align: center;
+  background-color: rgb(97, 97, 169);
+  padding:10px
+}
+figcaption{
+  padding: 15px;
+}
+.container img{
+  border-radius: 10px;
+}
+main{
+  background-color: rgb(224, 233, 233);
+  padding: 20px;
+  border-radius: 10px;
+  margin:20px;
+}
+.matter{
+  background-color: rgb(224, 233, 233);
+  padding: 20px;
+  border-radius: 10px;
+  margin:20px;
+}
+.container{
+  background-color: rgb(233, 243, 240);
+  padding: 30px;
+}
+footer{
+  background-color: rgb(112, 112, 186);
+  text-align: center;
+  padding:30px;
+}
