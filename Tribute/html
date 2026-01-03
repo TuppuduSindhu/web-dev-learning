@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="tribute.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Tribute to P.V sindhu</h1>
+  </header>
+
+  <div class="container">
+    <main>
+
+      <figure>
+        <img src="image.png" alt="P. V. Sindhu">
+        <figcaption>P. V. Sindhu</figcaption>
+      </figure>
+
+      <h2>About P. V. Sindhu</h2>
+      <p>
+        Pusarla Venkata Sindhu (born 5 July 1995) is an Indian badminton player.
+        Considered one of India's most successful athletes, she has won medals
+        at the Olympic Games, World Championships, and World Tour tournaments.
+        She is the first Indian to become a badminton world champion.
+      </p>
+
+    </main>
+
+    <div class="matter">
+      <p>
+        <b>Born:</b> 5 July 1995, Hyderabad <br>
+        <b>Teammates:</b> Lakshya Sen, Satwiksairaj Rankireddy, Chirag Shetty <br>
+        <b>Awards:</b> Padma Bhushan, Padma Shri <br>
+        <b>Coach:</b> Kim Ji-hyun <br>
+        <b>Parents:</b> P.V. Ramana, P. Vijaya
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    Created by &copy; Sindhu — All rights reserved
+  </footer>
+
+</body>
+</html>
