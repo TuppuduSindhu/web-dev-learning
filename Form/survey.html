@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="survey.css">
+</head>
+
+<body>
+  <fieldset>
+    <form>
+
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+    <label for="age">Age</label><br>
+    <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
+
+    <label>Which option describes you most</label><br>
+    <select name="role">
+      <option value="student">Student</option>
+      <option value="faculty">Faculty</option>
+      <option value="others">Others</option>
+    </select>
+    <br><br>
+
+    <label>Would you recommend this?</label><br>
+    <input type="radio" id="yes" name="ans" value="yes">
+    <label for="yes">Yes</label><br>
+
+    <input type="radio" id="no" name="ans" value="no">
+    <label for="no">No</label><br>
+
+    <input type="radio" id="other" name="ans" value="other">
+    <label for="other">Other</label>
+    <br><br>
+
+    <label>Languages and frameworks you know</label><br>
+    <input type="checkbox" name="sub[]" value="C"> C<br>
+    <input type="checkbox" name="sub[]" value="Python"> Python<br>
+    <input type="checkbox" name="sub[]" value="Java"> Java<br>
+    <input type="checkbox" name="sub[]" value="JavaScript"> JavaScript<br>
+    <input type="checkbox" name="sub[]" value="React"> React<br><br>
+
+    <label>Any comments</label><br>
+    <textarea rows="3" cols="30" placeholder="Enter your comments here"></textarea>
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+  </fieldset>
+  
+</body>
+</html>
